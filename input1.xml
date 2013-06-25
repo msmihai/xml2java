@@ -1,0 +1,23 @@
+<?xml version="1.0" ?> 
+<!--
+=>
+
+class a
+class b
+
+class a
+{
+    private b m_b;
+}
+
+class b
+{
+    private String x1;
+    private String x2;
+}
+
+-->
+<a>
+    <b x1="y1">Mihai</b>
+    <b x1="y1" x2="y2">George</b>
+</a>
