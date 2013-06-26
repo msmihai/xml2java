@@ -23,8 +23,7 @@ public class InternalGeneratorTest {
 
     @Test
     public void test1() {
-        XClass xClazz = new XClass();
-        xClazz.name = "Book";
+        XClass xClazz = new XClass("Book");
         xClazz.fieldList.add(new XField("name", XFieldType.STRING));
         xClazz.fieldList.add(new XField("author", XFieldType.STRING));
         InternalGenerator ig = new InternalGenerator(xClazz, "com.book");
