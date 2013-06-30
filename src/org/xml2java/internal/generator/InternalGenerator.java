@@ -72,7 +72,7 @@ public class InternalGenerator {
             ssb.append(field.getFieldDeclaration());
         }
 
-        /* class definition start end */
+        /* class definition end */
 
         ssb.tabIndex--;
         
